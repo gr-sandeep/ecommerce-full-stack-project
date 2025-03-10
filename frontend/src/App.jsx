@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/product/:productId" element={<Product />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
